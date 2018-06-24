@@ -1,0 +1,18 @@
+.option {
+  border-bottom: 1px solid lighten($light-blue, 10%);
+  display: flex;
+  justify-content: space-between;
+  padding: $l-size $m-size;
+  transition: background .3s ease;
+  &:hover {
+    background: lighten($off-gray, 55%);
+  }
+}
+
+.option__text {
+  color: $off-gray;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0;
+  word-break: break-all;
+}
